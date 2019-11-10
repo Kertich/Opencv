@@ -1,7 +1,7 @@
 import numpy as np 
 from cv2 import cv2 
 
-# define a canvs of size 300*300 px, with 3 channels (R,G,B) and data type as 8 bit unsigned integer
+# define a canvas of size 300*300 px, with 3 channels (R,G,B) and data type as 8 bit unsigned integer
 canvas = np.zeros((300, 300, 3), dtype = "uint8")
 
 #define color

@@ -7,7 +7,7 @@ canvas = np.zeros((300, 300, 3), dtype = "uint8")
 #define color
 #draw the line
 #arguments are canvas/image, starting point, ending point, color, thickness(optional)
-# disply in cv2 window
+# display in cv2 window
 green = (0,255,0)
 cv2.line(canvas,(0,0),(300,300),green)
 cv2.imshow("The line 1", canvas)
